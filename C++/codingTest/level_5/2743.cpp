@@ -3,10 +3,7 @@ using namespace std;
 
 int main(){
     string str;
-    // getline(cin, str);
     cin >> str;
-    int i;
-    cin >> i;
-    cout << str[i - 1];
+    cout << str.length() << endl;
     return 0;
 }
